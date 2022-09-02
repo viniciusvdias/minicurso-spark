@@ -22,6 +22,5 @@ object LogPorIntervalo {
 
       ssc.start
       ssc.awaitTermination
-
    }
 }

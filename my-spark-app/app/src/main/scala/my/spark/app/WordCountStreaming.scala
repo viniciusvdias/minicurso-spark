@@ -1,8 +1,8 @@
 package my.spark.app
 
 /* WordCount.scala */
+import org.apache.spark.SparkConf
 import org.apache.spark.streaming.{Seconds, StreamingContext}
-import org.apache.spark.{SparkConf, SparkContext}
 
 object WordCountStreaming {
   def main(args: Array[String]): Unit = {

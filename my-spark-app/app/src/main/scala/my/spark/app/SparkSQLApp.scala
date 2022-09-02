@@ -12,7 +12,7 @@ object SparkSQLApp {
       .config("spark.some.config.option", "some-value")
       .getOrCreate()
 
-    val numsDf = spark.read.json("file:///vagrant/data/movimentacoes.json")
+    val numsDf = spark.read.json("data/zipcodes.json")
     println("Esquema do DataFrame:\n")
     numsDf.printSchema()
 
